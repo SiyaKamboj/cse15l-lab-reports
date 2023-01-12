@@ -8,3 +8,5 @@ Here is a link:
 
 ---
 Now, let's try making the image lead to a link (hopefully):
+
+[![Image](https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg)](https://youtube.com)
