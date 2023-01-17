@@ -15,10 +15,9 @@
   
 ![Image](images/terminal.png)
 
----
----
-
 ## Experimenting with Commands on the Terminal
+
+  dfmgfdkg
 
 
 
