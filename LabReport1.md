@@ -17,7 +17,7 @@
 
 ## Experimenting with Commands on the Terminal
 
-  dfmgfdkg
+![Image](images/Running_Commands.png)
 
 
 
