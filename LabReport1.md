@@ -17,7 +17,7 @@
 
 ## Experimenting with Commands on the Terminal
 
-![Image](images/Running_Commands.png)
+![Image](images/running_commands.png)
 
 
 
