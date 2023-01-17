@@ -9,7 +9,8 @@
 
 > Remotely Connecting to the computers in the CSE Building
 
-  Due to
+  To remotely connect to the computers in the CSE Building, I tried to follow the instructions given in class. However, the rest of my lab group and I had issues setting our default terminals to use gitbash in VSCode. After about 5 minutes of difficulty, one of my group members (who also used a macbook) discovered that we could simply use the terminal on our macs instead of configuring the terminal in VSCode. 
+  
 
 > Experimenting with Commands on the terminal
 
