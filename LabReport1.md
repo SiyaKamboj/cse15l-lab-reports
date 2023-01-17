@@ -13,7 +13,7 @@
   
   After we solved the issue with the terminal, I was able to establish a connection with the lab computers by typing `ssh cs15lwi23atq@ieng6.ucsd.edu`. When I first connected, I had to confirm that I wanted to continue connecting by typing `yes`; however, after that, I received this message every time I connected, which did not prompt me to proceed with any further action, aside from typing in my password. 
   
-![Image](images/)
+![Image](images/terminal.png)
 
 > Experimenting with Commands on the terminal
 
