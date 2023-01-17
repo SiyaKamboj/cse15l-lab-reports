@@ -5,7 +5,8 @@
 ![Image](images/vscode_downloaded.png)
 
   Since VSCode was my IDE for CSE 11, I had already downloaded it on my macbook last quarter; hence, during lab, I skipped this step. However, to verify VSCode was still on my macbook, I searched for it in finder and took the screenshot above.
-  
+ 
+---
 
 > Remotely Connecting to the computers in the CSE Building
 
@@ -14,6 +15,8 @@
   After we solved the issue with the terminal, I was able to establish a connection with the lab computers by typing `ssh cs15lwi23atq@ieng6.ucsd.edu`. When I first connected, I had to confirm that I wanted to continue connecting by typing `yes`; however, after that, I received this message every time I connected, which did not prompt me to proceed with any further action, aside from typing in my password. 
   
 ![Image](images/terminal.png)
+
+---
 
 > Experimenting with Commands on the terminal
 
