@@ -41,7 +41,7 @@
 
 Once I established a secure connection to the lab computers using the aforementioned steps, I ran through a series of commands to experiment with the connection, as shown in the photo above. 
 1. The first command in this screenshot is `ls -a`
-* From prior class knowledge, I knew that `ls` listed all the files in the current directory, and it seems as though `ls -a` lists addition files in the current directory, where the first character is a period. Upon further online research, it seems as though files were periods prepend the name denote hidden files, and `ls -a` also lists out these hidden files. 
+* From prior class knowledge, I knew that `ls` listed all the files in the current directory, and it seems as though `ls -a` lists addition files in the current directory, where the first character is a period. Upon further online research, it seems as though files, in which periods prepend the name, denote hidden files, and `ls -a` also lists out these hidden files. 
 
 2. 
 For instance, when trying to access another group member’s files (using the ls /home/linux/ieng6/… command), I got the message “Permission denied,” likely to ensure that you cannot search through other students’ files without being logged in to their account. On the other hand, when I insert my own account (rather than a group members), it returns 2 things: hello.txt and perl5, showing that I have the permissions to access my own files through the remote server.
