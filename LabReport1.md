@@ -16,7 +16,9 @@
 
 ## Remotely Connecting to the computers in the CSE Building
 
-  To remotely connect to the UCSD ieng6 server, I tried to follow the [instructions]( https://ucsd-cse15l-w23.github.io/week/week1/#week-1-lab-report ) given in class. However, the rest of my lab group and I had issues setting our default terminals to use gitbash in VSCode. After about 5 minutes of difficulty, one of my group members (who also used a macbook) discovered that we could simply use the terminal on our macs instead of configuring the terminal in VSCode, since we are not using Windows. 
+  To remotely connect to the UCSD ieng6 server, I first tried to find my course specific account for CSE15L at [this link]( https://sdacs.ucsd.edu/~icc/index.php ), which redirected me to a page where I inputted my UCSD username (sskamboj) and PID. Using this information, the website led me to the page pictured below, informing me that my account username is cs15lwi23atq. When I selected that button with my username, I was allowed to change my password using the Global Password Reset, which is also pictured below. 
+  
+  After about 15 minutes, my password was successfully updated, so I tried to follow the [instructions]( https://ucsd-cse15l-w23.github.io/week/week1/#week-1-lab-report ) given in class. However, the rest of my lab group and I had issues setting our default terminals to use gitbash in VSCode. After about 5 minutes of difficulty, one of my group members (who also used a macbook) discovered that we could simply use the terminal on our macs instead of configuring the terminal in VSCode, since we are not using Windows. 
   
   After we solved the issue with the terminal, I was able to establish a connection with the UCSD ieng6 servers by typing `ssh cs15lwi23atq@ieng6.ucsd.edu`. When I first connected, I had to confirm that I wanted to continue connecting by typing `yes`; however, after that, I received this message every time I connected, which did not prompt me to proceed with any further action, aside from typing in my password. 
   
