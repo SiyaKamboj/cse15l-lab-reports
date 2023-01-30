@@ -8,6 +8,11 @@
   
 ![Image](images/VSCode_in_downloads_folder.png)
 
+   Then, I dragged the Visual Studio Code Application to the Applications folder; however, since I already had Visual Studio Code in my applications folder, I was prompted to choose whether I want to keep both apps, replace, or stop the operation, and I chose to replace the current VSCode application. To confirm that the newly installed VSCode worked, I double clicked the app in the applications folder, and the following message popped up: 
+
+![Image]( images/ensure_VSCode_safe.png )
+
+   After selecting "yes", I was successfully able to open and run new and existing projects in VSCode. For all future projects, I was able to open VSCode without the pop, either through the applications folder or the finder on my macbook. Since I verified VSCode properly worked, I deleted the zip file from my Downloads folder, thereby removing unnecessary clutter. 
 
 ## Remotely Connecting to the computers in the CSE Building
 
