@@ -43,5 +43,17 @@ Once I established a secure connection to the lab computers using the aforementi
 1. The first command in this screenshot is `ls -a`
 * From prior class knowledge, I knew that `ls` listed all the files in the current directory, and it seems as though `ls -a` lists addition files in the current directory, where the first character is a period. Upon further online research, it seems as though files, in which periods prepend the name, denote hidden files, and `ls -a` also lists out these hidden files. 
 
-2. 
-For instance, when trying to access another group member’s files (using the ls /home/linux/ieng6/… command), I got the message “Permission denied,” likely to ensure that you cannot search through other students’ files without being logged in to their account. On the other hand, when I insert my own account (rather than a group members), it returns 2 things: hello.txt and perl5, showing that I have the permissions to access my own files through the remote server.
+2. The next command is `ls /home/linux/ieng6/cs15lwi23/cs15lwi23auq`
+* When trying to access another group member’s files (using the `ls /home/linux/ieng6/cs15lwi23/cs15lwi23auq` command), I got the message “Permission denied,” likely to ensure that you cannot search through other students’ files without being logged in to their account. On the other hand, when I insert my own account (rather than a group members), it returns 2 things: hello.txt and perl5, showing that I have the permissions to access my own files through the remote server.
+
+3. `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+* This command copies the hello.txt file located in the /home/linux/ieng6/cs15lwi23/public directory to the home directory. This is because "cp" stands for copy, " /home/linux/ieng6/cs15lwi23/public/hello.txt" stands for the current directory, and "~/" stands for the directory where the text file is getting copied.
+
+4. `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+* This command prints the contents of hello.txt in the terminal, which is "Hello! Welcome to CSE 15L", as shown above in the picture.
+
+5. `ls /home/linux/ieng6/cs15lwi23/cs15lwi23atq`
+* This command lists all the non-hidden files in the "/home/linux/ieng6/cs15lwi23/cs15lwi23atq" directory, which is my own account's directory. As shown above, the only 2 non-hidden files are perl5 and hello.txt (which was already opened)
+
+6. In the next couple commands, I unsuccessfully attempted to find out what perl5 was. First, I assumed it was a directory and tried to list all the files inside of it using ` ls /home/linux/ieng6/cs15lwi23/cs15lwi23atq/perl5`. When that yielded no output, I first ensured I was in the appropriate directory, using `pwd`. Then, I assumed 
+that perl5 was a file, like hello.txt and tried to use the `cat` command, which resulted in an error message of "No such file or directory." Due to time contraints, I did not further explore what perl5 was. 
