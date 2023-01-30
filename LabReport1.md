@@ -4,8 +4,8 @@
 
 ![Image](images/vscode_downloaded.png)
 
-  Since VSCode was my IDE for CSE 11, I had already downloaded it on my macbook last quarter; hence, during lab, I skipped this step. However, to verify VSCode was still on my macbook, I searched for it in finder and took the screenshot above.
- 
+  Since VSCode was my IDE for CSE 11, I had already downloaded it on my macbook last quarter. However, for the purposes of this lab, I reinstalled it on my local device by following the instructions on [this website]( https://code.visualstudio.com/docs/setup/mac ). As per the first step, I clicked [this link]( https://go.microsoft.com/fwlink/?LinkID=534106 ) which automatically downloaded a zip file to my device's downloads folder. To open the zip file, I double clicked it in my downloads folder, which, then, installed Visual Studio Code in my Downloads folder, as shown below: 
+
 
 ## Remotely Connecting to the computers in the CSE Building
 
