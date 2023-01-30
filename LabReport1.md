@@ -16,7 +16,10 @@
 
 ## Remotely Connecting to the computers in the CSE Building
 
-  To remotely connect to the UCSD ieng6 server, I first tried to find my course specific account for CSE15L at [this link]( https://sdacs.ucsd.edu/~icc/index.php ), which redirected me to a page where I inputted my UCSD username (sskamboj) and PID. Using this information, the website led me to the page pictured below, informing me that my account username is cs15lwi23atq. When I selected that button with my username, I was allowed to change my password using the Global Password Reset, which is also pictured below. 
+  To remotely connect to the UCSD ieng6 server, I first found my course specific account for CSE15L at [this link]( https://sdacs.ucsd.edu/~icc/index.php ), which redirected me to a page where I inputted my UCSD username (sskamboj) and PID. Using this information, the website led me to the first page pictured below, informing me that my account username is cs15lwi23atq. When I selected the button with my username, I was allowed to change my password using the Global Password Reset tool. It should be noted that the second screenshot below is from the second time I reset my password, as I forgot to screenshot my first password reset during lab. For the "old password" field, I inputted the default password that was emailed to me, and inserted my own password for the new password.
+
+![Image]( )
+![Image]( )
   
   After about 15 minutes, my password was successfully updated, so I tried to follow the [instructions]( https://ucsd-cse15l-w23.github.io/week/week1/#week-1-lab-report ) given in class. However, the rest of my lab group and I had issues setting our default terminals to use gitbash in VSCode. After about 5 minutes of difficulty, one of my group members (who also used a macbook) discovered that we could simply use the terminal on our macs instead of configuring the terminal in VSCode, since we are not using Windows. 
   
