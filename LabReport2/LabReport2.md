@@ -6,13 +6,7 @@ We were tasked with making a web server that tracks incoming parameters and prin
 
 ![Image](images/String_Server_Code.png)
 
-> Which methods in your code are called?
-
-
-> What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-
-
-> How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+To start the server, first compile the 2 java classes by typing `javac Server.java StringServer.java`; then, to officially start the server, type `java StringServer 4000` to run the String Server class. As seen in the screenshot above, this runs `public static void main(String[] args)` method in the String Server class and accepts a number parameter, which will be the path where the server is hosted. In this example, because I inputted 4000 as a parameter, the server now runs on http://localhost:4000 . 
 
 
 
