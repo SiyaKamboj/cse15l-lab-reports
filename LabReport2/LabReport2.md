@@ -37,4 +37,6 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
 > The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
   
+  ![Image](images/Bug.png)
+  
 > The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
