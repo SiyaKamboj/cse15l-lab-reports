@@ -12,8 +12,12 @@ When you go to http://localhost:4000 , the Handler method will be called, and th
   
 ![Image](images/Pls_Append.png)
   
-If you go to http://localhost:4000/add-message?s=Hi, the Handler method will again be called, and the `inputtedWords` & `stringOfInputtedWords` variables will be re-declared. Then, the `public String handleRequest(URI url)` method will be called again, with the current URL ( http://localhost:4000/add-message?s=Hi ) as the parameter.Then, the method checks if the path for current URL/parameter equals `/add-message`; since it does, the code then splits the query at the equals sign. In this case, because the character before the equals sign is 0, it is saved into `params[0]`, and "Hi" is saved into `params[1]` since it immediately follows the `s=`. Because the first parameter is "s", the "Hi" is appened to the end of the empty ArrayList, `inputtedWords`. Then, the content(s) from `inputtedWords` are concatenated into the `stringOfInputtedWords` String, which separates each indivual element with a new line. Ultimately, this string, which contains all the inputtedWords (in this case, only "Hi" has been inputted), is returned and displayed on the webpage, as shown below.
+If you go to http://localhost:4000/add-message?s=Hi, the Handler method will again be called, and the `inputtedWords` & `stringOfInputtedWords` variables will be re-declared. Then, the `public String handleRequest(URI url)` method will be called again, with the current URL ( http://localhost:4000/add-message?s=Hi ) as the parameter. Then, the method checks if the path for current URL/parameter equals `/add-message`; since it does, the code then splits the query at the equals sign. In this case, because the character before the equals sign is 0, it is saved into `params[0]`, and "Hi" is saved into `params[1]` since it immediately follows the `s=`. Because the first parameter is "s", the "Hi" is appened to the end of the empty ArrayList `inputtedWords`. Then, the content(s) from `inputtedWords` are concatenated into the `stringOfInputtedWords` String, which separates each indivual element with a new line. Ultimately, this string, which contains all the inputtedWords (in this case, only "Hi" has been inputted), is returned and displayed on the webpage, as shown below.
   
 ![Image](images/Hi.png)
+  
+Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You , the process mentioned above repeats, except `params[1]` contains "How Are You" instead of "Hi". Hence, "How Are You" is appended to the end of `inputtedWords` ArrayList, which already contained "Hi". Hence, the following is outputted: 
+  
+![Image](images/Hi_How_Are_You.png)
   
 
