@@ -64,7 +64,9 @@ static int[] reversedNew(int[] arr) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }
+}
 ```
 In the original code, the length of the array is initialized, but the contents are never copied over, so when information is pulled from the new array, you are pulling only the null value: 0. In the new code, the new array deep copies the contents of the original array, so actual values are getting pulled.
+
+                                  > Reflection
 
