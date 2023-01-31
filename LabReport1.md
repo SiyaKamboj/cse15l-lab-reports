@@ -50,7 +50,7 @@ Once I established a secure connection to the ieng6 server using the aforementio
 * When trying to access another group member’s files (using the `ls /home/linux/ieng6/cs15lwi23/cs15lwi23auq` command), I got the message “Permission denied,” likely to ensure that you cannot search through other students’ files without being logged in to their account. On the other hand, when I insert my own account (rather than a group members) later on, it returns 2 things: hello.txt and perl5, showing that I have the permissions to access my own files through the remote server.
 
 3. `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-* cp commands copy files to another directory, and typically follow this format: `cp     current directory      directory where file will get coped`. Hence, I believe that this command copies the hello.txt file located in the /home/linux/ieng6/cs15lwi23/public directory to the home directory, "~/". 
+* cp commands copy files to another directory, and typically follow this format: `cp` `current directory` `directory where file will get coped`. Hence, I believe that this command copies the hello.txt file located in the /home/linux/ieng6/cs15lwi23/public directory to the home directory, "~/". 
 
 4. `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 * This command prints the contents of hello.txt in the terminal, which is "Hello! Welcome to CSE 15L", as shown above in the picture.
