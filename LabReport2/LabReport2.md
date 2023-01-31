@@ -20,5 +20,6 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
 ![Image](images/Hi_How_Are_You.png)
   
-
+---
+  
 ## Tackling Bugs 
