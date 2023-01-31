@@ -40,3 +40,6 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   ![Image](images/Bug.png)
   
 > The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+  
+  Here is a side-by-side comparison of the original/flawed code with the updated code.
+  
