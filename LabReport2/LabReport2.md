@@ -45,17 +45,11 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
   ```
   static int[] reversed(int[] arr) {
-  
     int[] newArray = new int[arr.length];
-  
-    for(int i = 0; i < arr.length; i += 1) {
-                                   
-      arr[i] = newArray[arr.length - i - 1];
-                                   
-    }
-                                   
-    return arr;
-                                   
+    for(int i = 0; i < arr.length; i += 1) {                             
+      arr[i] = newArray[arr.length - i - 1];                           
+    }                              
+    return arr;                              
   }
  ```
   
