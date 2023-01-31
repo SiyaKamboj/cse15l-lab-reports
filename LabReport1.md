@@ -34,7 +34,7 @@
    
    Are you sure you want to continue connecting (yes/no/[fingerprint])? `
   
-  Since I wantted to continue connecting, I typed `yes` and was prompted to input my password; however, after that, I consistently received the message pictured below every time I connected, which did not prompt me to proceed with any further action, aside from typing in my password. 
+  Since I wanted to continue connecting, I typed `yes` and was prompted to input my password; however, after that, I consistently received the message pictured below every time I connected, which did not prompt me to proceed with any further action, aside from typing in my password. 
   
 ![Image](images/terminal.png)
 
