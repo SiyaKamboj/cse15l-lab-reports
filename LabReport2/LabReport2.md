@@ -2,7 +2,7 @@
 
 ## Writing a Web Server
 
-We were tasked with making a web server that tracks incoming parameters and prints them out for the user to see. In this server, the user would send their requests by appending `/add-message?s=<string> ` to the end of the http://localhost:# url. A screenshot of the code is pasted below; additionally, the entire code can be found at [this link]().
+We were tasked with making a web server that tracks incoming parameters and prints them out for the user to see. In this server, the user would send their requests by appending `/add-message?s=<string> ` to the end of the http://localhost:# url. A screenshot of the code is pasted below; additionally, the entire code can be found at [this link](https://github.com/SiyaKamboj/cse15l-lab-reports/tree/main/LabReport2).
 
 ![Image](images/String_Server_Code.png)
 
@@ -12,8 +12,6 @@ When you go to http://localhost:4000 , the Handler method will be called, and th
   
 ![Image](images/Pls_Append.png)
   
+If you go to http://localhost:4000/add-message?s=Hi, the Handler method will again be called, and the `inputtedWords` & `stringOfInputtedWords` variables will be re-declared. Then, the `public String handleRequest(URI url)` method will be called again, with the current URL ( http://localhost:4000/add-message?s=Hi ) as the parameter.Then, the method checks if the path for current URL/parameter equals `/add-message`; since it does, the code then splits the query at the equals sign. In this case, because the character before the equals sign is 0, it is saved into `params[0]`, and "Hi" is saved into `params[1]` since it immediately follows the `s=`.
+  
 
-
-
-
-[this website]( https://code.visualstudio.com/docs/setup/mac )
