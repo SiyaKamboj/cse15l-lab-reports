@@ -36,6 +36,10 @@ class Handler implements URLHandler {
             if (parameters[0].equals("s")) {
                   inputtedWords[length] = parameters[1];
                   return String.format(inputtedWords.toString());
+            }
+        }
+        else{
+            return ("Hello. Please append /add-message to the end of the URL");
         }
             /*
         } else {
@@ -49,7 +53,6 @@ class Handler implements URLHandler {
             }
             return "404 Not Found!";
         }*/
-    }
 }
 
 class StringServer {
