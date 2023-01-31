@@ -43,7 +43,8 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
   The original code: 
   
-  `static int[] reversed(int[] arr) {
+  ```
+  static int[] reversed(int[] arr) {
   
     int[] newArray = new int[arr.length];
   
@@ -55,5 +56,6 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
                                    
     return arr;
                                    
-  }`
+  }
+ ```
   
