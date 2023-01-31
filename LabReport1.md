@@ -22,7 +22,7 @@
 *This is the first screenshot, where I found my course specific account.*
 
 ![Image]( images/change_password_tool.png )
-*This is the second screenshot, where I was able to change my password for my CSE 15L Account. It should be noted that this screenshot is from the second time I reset my password, as I forgot to screenshot my first password reset during lab. *
+*This is the second screenshot, where I was able to change my password for my CSE 15L Account. It should be noted that this screenshot is from the second time I reset my password, as I forgot to screenshot my first password reset during lab.*
   
   After about 15 minutes, my password was successfully updated, so I tried to follow the [instructions]( https://ucsd-cse15l-w23.github.io/week/week1/#week-1-lab-report ) given in class. However, the rest of my lab group and I had issues setting our default terminals to use gitbash in VSCode. After about 5 minutes of difficulty, one of my group members (who also used a macbook) discovered that we could simply use the terminal on our macs instead of configuring the terminal in VSCode, since we are not using Windows. 
   
