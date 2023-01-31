@@ -58,5 +58,5 @@ Once I established a secure connection to the ieng6 server using the aforementio
 5. `ls /home/linux/ieng6/cs15lwi23/cs15lwi23atq`
 * This command lists all the non-hidden files in the "/home/linux/ieng6/cs15lwi23/cs15lwi23atq" directory, which is my own account's directory. As shown above, the only 2 non-hidden files are perl5 and hello.txt. 
 
-6. In the next couple commands, I unsuccessfully attempted to find out what perl5 was. First, I assumed it was a directory and tried to list all the files inside of it using ` ls /home/linux/ieng6/cs15lwi23/cs15lwi23atq/perl5`. When that yielded no output, I first ensured I was in the appropriate directory, using `pwd`. Then, I assumed 
+6. In the next couple commands, I unsuccessfully attempted to find out what perl5 was. First, I assumed it was a directory and tried to list all the files inside of it using `ls /home/linux/ieng6/cs15lwi23/cs15lwi23atq/perl5`. When that yielded no output, I first ensured I was in the appropriate directory, using `pwd`. Then, I assumed 
 that perl5 was a file, like hello.txt and tried to use the `cat` command, which resulted in an error message of "No such file or directory." Due to time contraints, I did not further explore what perl5 was. 
