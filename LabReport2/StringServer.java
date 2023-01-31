@@ -1,58 +1,29 @@
 import java.io.IOException;
 import java.net.URI;
+import java.util.ArrayList;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     int num = 0;
     ArrayList<String> inputtedWords = new ArrayList<String>();
-    
-    /*
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return ("Hello. Please append /add-message to the end of the URL");
-        } else if (url.getPath().equals("/increment")) {
-            num += 1;
-            return String.format("Number incremented!");
-        } else {
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("count")) {
-                    num += Integer.parseInt(parameters[1]);
-                    return String.format("Number increased by %s! It's now %d", parameters[1], num);
-                }
-            }
-            return "404 Not Found!";
-        }
-    }
-    */
+    String stringOfInputtedWords;
     
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return ("Hello. Please append /add-message to the end of the URL");
-        } else if (url.getPath().equals("/add-message")) {
+        if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                  inputtedWords[length] = parameters[1];
-                  return String.format(inputtedWords.toString());
-            }
-        }
-        else{
-            return ("Hello. Please append /add-message to the end of the URL");
-        }
-            /*
-        } else {
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("count")) {
-                    num += Integer.parseInt(parameters[1]);
-                    return String.format("Number increased by %s! It's now %d", parameters[1], num);
+                inputtedWords.add(parameters[1]);
+                stringOfInputtedWords="";
+                for (String s : inputtedWords)
+                {
+                    stringOfInputtedWords += s + "\n";
                 }
+                return stringOfInputtedWords;
             }
-            return "404 Not Found!";
-        }*/
+        }
+        return ("Hello. Please append /add-message?s=<String> to the end of the URL");
+    }
 }
 
 class StringServer {
