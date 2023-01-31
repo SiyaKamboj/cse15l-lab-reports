@@ -43,4 +43,4 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
   Here is a side-by-side comparison of the original/flawed code with the updated code.
   
-  ![Image](images/Bad_Code.png) ![Image](images/Good_Code.png)
+  ![Image](images/Bad_Code.png) ![Image](images/Better_Code.png)
