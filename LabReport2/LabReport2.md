@@ -69,7 +69,7 @@ static int[] reversedNew(int[] arr) {
 In the original code, the length of the array is initialized, but the contents are never copied over, so when information is pulled from the new array, you are pulling only the null value: 0. In the new code, the new array deep copies the contents of the original array, so actual values are getting pulled.
 
 ---
-> Reflection
+## Reflection
   
-  dkgfdjg fkdjgfdjg
+In week 2, we learned how to clone a git repository, make changes on the local device, and then push the changes back to github. This is helpful for me, since changes made on a local device are instantly reflected on the local webpage; whereas, changes made directly on github are cached and take a couple minutes to reflect on the actual website. Additionally, learning how to properly clone a git repository helps avoid merge conflicts in the future. 
 
