@@ -42,17 +42,17 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
 > The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
   
   The original code: 
-  ` static int[] reversed(int[] arr) {`
+  ` static int[] reversed(int[] arr) {
   
-    `int[] newArray = new int[arr.length];`
+    int[] newArray = new int[arr.length];
   
-    `for(int i = 0; i < arr.length; i += 1) {`
+    for(int i = 0; i < arr.length; i += 1) {
                                    
-      `arr[i] = newArray[arr.length - i - 1];`
+      arr[i] = newArray[arr.length - i - 1];
                                    
-    `}`
+    }
                                    
-    `return arr;`
+    return arr;
                                    
-  `}`
+  }`
   
