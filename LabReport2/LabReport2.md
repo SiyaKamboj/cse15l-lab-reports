@@ -41,6 +41,18 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
 > The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
   
-  Here is a side-by-side comparison of the original/flawed code with the updated code.
+  The original code: 
+  ` static int[] reversed(int[] arr) {`
   
-  ![Image](images/Bad_Code.png) ![Image](images/Better_Code.png)
+    `int[] newArray = new int[arr.length];`
+  
+    `for(int i = 0; i < arr.length; i += 1) {`
+                                   
+      `arr[i] = newArray[arr.length - i - 1];`
+                                   
+    `}`
+                                   
+    `return arr;`
+                                   
+  `}`
+  
