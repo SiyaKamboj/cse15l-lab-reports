@@ -2,6 +2,9 @@
 
 ## Writing a Web Server
 
+We were tasked with making a web server that tracks incoming parameters and prints them out for the user to see. In this server, the user would send their requests by appending `/add-message?s=<string> ` to the end of the http://localhost:# url. 
+![Image](images/String_Server_Code.png)
+
 > Which methods in your code are called?
 
 
@@ -12,6 +15,5 @@
 
 
 
-![Image](images/Pls_Append.png)
 
 [this website]( https://code.visualstudio.com/docs/setup/mac )
