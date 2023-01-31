@@ -24,10 +24,10 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
 ## The Bug In the "reversed" Method
 > Failure-inducing input for the buggy program, as a JUnit test and any associated code
-  `
-  int[] input1 = {46, 81, 22, 92 };
-  assertArrayEquals(new int[]{92, 22, 81, 46 }, ArrayExamples.reversed(input1));
- `
+  
+  `int[] input1 = {46, 81, 22, 92 };
+  
+  assertArrayEquals(new int[]{92, 22, 81, 46 }, ArrayExamples.reversed(input1));`
   
 > An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
   
