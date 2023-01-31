@@ -2,7 +2,8 @@
 
 ## Writing a Web Server
 
-We were tasked with making a web server that tracks incoming parameters and prints them out for the user to see. In this server, the user would send their requests by appending `/add-message?s=<string> ` to the end of the http://localhost:# url. 
+We were tasked with making a web server that tracks incoming parameters and prints them out for the user to see. In this server, the user would send their requests by appending `/add-message?s=<string> ` to the end of the http://localhost:# url. Here is the code for the string server:
+
 ![Image](images/String_Server_Code.png)
 
 > Which methods in your code are called?
