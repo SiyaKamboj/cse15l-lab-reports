@@ -31,9 +31,9 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
 > An input that doesn’t induce a failure, as a JUnit test and any associated code 
   
-  `int[] input1 = {0, 0, 0};`
+  `int[] input2 = {0, 0, 0};`
   
-  `assertArrayEquals(new int[]{0, 0, 0}, ArrayExamples.reversed(input1));`
+  `assertArrayEquals(new int[]{0, 0, 0}, ArrayExamples.reversed(input2));`
   
 > The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
   
