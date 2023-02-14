@@ -89,5 +89,11 @@ $ 101     101    5147 random.txt
 In the example above, I used grep -vl to determine the text files in the "written_2/travel_guides/berlitz1/" subdirectory that do not contain the word "jgfdjgjfgk." Since none of the text files contain the aforementioned word, all 101 files were returned by the output. 
 
 ```
-
+$ wc written_2/travel_guides/berlitz2/Bahamas-History.txt
+$ 43    2678   16802 written_2/travel_guides/berlitz2/Bahamas-History.txt
+$
+$ grep -v "Lucayans" written_2/travel_guides/berlitz2/Bahamas-History.txt > lucayans-new.txt
+$ wc lucayans-new.txt
+$ 41    2418   15249 lucayans-new.txt
 ```
+From the first example for `grep -r`, we know that exactly 2 lines in Bahamas-History.txt contain the word "Lucayans." From the `wc` command at the beginning of this command, it is apparent that there are exactly 43 lines in the Bahamas-History.txt file. Therefore, it is implied that exactly 41 lines do not have "Lucayans," which is verified by the final `grep -v` command in the example above. 
