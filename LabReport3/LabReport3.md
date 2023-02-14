@@ -80,3 +80,14 @@ I first learned about grep -l from the extension questions after the week 4 lab,
 
 `grep -v` was a command that I discovered at [this link](https://www.redhat.com/sysadmin/find-text-files-using-grep). It is a command that "inverts" grep by searching for the file that does NOT contain the user-specified pattern/word. This would be useful for mass-deleting all files that contain a word/phrase that is no longer necessary. 
 
+```
+$ grep -vl "jgfdjgjfgk" written_2/travel_guides/berlitz1/*.txt > random.txt
+$
+$ wc random.txt
+$ 101     101    5147 random.txt
+```
+In the example above, I used grep -vl to determine the text files in the "written_2/travel_guides/berlitz1/" subdirectory that do not contain the word "jgfdjgjfgk." Since none of the text files contain the aforementioned word, all 101 files were returned by the output. 
+
+```
+
+```
