@@ -24,5 +24,5 @@ $ 0       0       0 random-result.txt
 ```
 According to the output of the second example, no file in any of the files or subdirectories of written_2 contained a line with the word "dklgjkdfjg", which was expected. 
 
-I discovered information about this command from lecture; however, I answered my clarifying questions using ![this link](https://stackoverflow.com/questions/1987926/how-do-i-recursively-grep-all-directories-and-subdirectories). 
+I discovered information about this command from lecture; however, I answered my clarifying questions using [this link](https://stackoverflow.com/questions/1987926/how-do-i-recursively-grep-all-directories-and-subdirectories). 
 
