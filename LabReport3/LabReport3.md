@@ -78,5 +78,5 @@ I first learned about grep -l from the extension questions after the week 4 lab,
 
 ## grep -v
 
-`grep -v` was a command that I discovered at [this link](https://www.redhat.com/sysadmin/find-text-files-using-grep). It is a command that "inverts" grep by searching for the file that does NOT contain the user-specified pattern/word. 
+`grep -v` was a command that I discovered at [this link](https://www.redhat.com/sysadmin/find-text-files-using-grep). It is a command that "inverts" grep by searching for the file that does NOT contain the user-specified pattern/word. This would be useful for mass-deleting all files that contain a word/phrase that is no longer neccessary. 
 
