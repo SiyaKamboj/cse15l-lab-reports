@@ -10,7 +10,7 @@
 
 ```
 $ grep -r "Lucayans" written_2 > lucayans-result.txt
-
+$
 $ wc lucayans-result.txt
 $ 2     260    1659 lucayans-result.txt
 ```
@@ -18,7 +18,7 @@ $ 2     260    1659 lucayans-result.txt
 
 ```
 $ grep -r "dklgjkdfjg" written_2 > random-result.txt
-
+$
 $ wc random-result.txt
 $ 0       0       0 random-result.txt
 ```
@@ -32,7 +32,7 @@ I discovered information about this command from lecture; however, I answered my
 
 ```
 $ grep -l "vista" written_2/travel_guides/berlitz1/*.txt > files-vista.txt
-
+$
 $ cat files-vista.txt
 $ written_2/travel_guides/berlitz1/IntroDublin.txt
 $ written_2/travel_guides/berlitz1/IntroLakeDistrict.txt
@@ -49,7 +49,7 @@ In this example, I searched for the text files in the written_2/travel_guides/be
 
 ```
 $ grep -rl "vista" written_2 > files-vista.txt
-
+$
 $ cat files-vista.txt
 $ written_2/travel_guides/berlitz1/IntroDublin.txt
 $ written_2/travel_guides/berlitz1/IntroMadeira.txt
