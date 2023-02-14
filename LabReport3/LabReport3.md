@@ -26,7 +26,7 @@ According to the output of the second example, no file in any of the files or su
 
 I discovered information about this command from lecture; however, I answered my clarifying questions using [this link](https://stackoverflow.com/questions/1987926/how-do-i-recursively-grep-all-directories-and-subdirectories). 
 
-##grep -l
+## grep -l
 
 `grep -l` searches for the file(s) in which a given string or expression appears. If used in conjunction with `grep -r`, you can recursively search all subdirectories for the specific file that contains the given string or expression. This command can be helpful to find the number of files that contain a given string, in order to determine which files are repetitive and can, subsequently, get deleted. The examples below demonstrate the outputs for a series of examples: 
 
@@ -73,6 +73,8 @@ $ written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
 $ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
 In this example, I used both `grep -r` and `grep -l` to recursively search through all the files and subdirectories in written_2 for the text files that contain the string "vista" and replace the contents of "files-vista.txt" with the output. When opening the new file, it is evident that more files (that are not in written_2/travel_guides/berlitz1/) contain the word "vista". 
+
+I first learned about grep -l from the extension questions after the week 4 lab, using a variety of different internet resources such as [stackoverflow](https://stackoverflow.com/) and [geeksforgeeks](https://www.geeksforgeeks.org/).
 
 
 
