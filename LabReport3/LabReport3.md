@@ -97,3 +97,7 @@ $ wc lucayans-new.txt
 $ 41    2418   15249 lucayans-new.txt
 ```
 From the first example for `grep -r`, we know that exactly 2 lines in Bahamas-History.txt contain the word "Lucayans." From the `wc` command at the beginning of this command, it is apparent that there are exactly 43 lines in the Bahamas-History.txt file. Therefore, it is implied that exactly 41 lines do not have "Lucayans," which is verified by the final `grep -v` command in the example above. 
+
+## grep -m
+`grep -m` was a command I found after typing `man grep` into the terminal. 
+`grep -m` stops reading the file after it finds x number of lines that contain the given expression.
