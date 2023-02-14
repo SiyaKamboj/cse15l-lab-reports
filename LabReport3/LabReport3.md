@@ -110,6 +110,14 @@ $ 1     134     809 lucayans-new.txt
 ```
 From previous examples, it is known that there are exactly 2 lines in Bahamas-History.txt that contain the word "Lucayans"; however, in this example, the file stops gettng read after the first line that contains the given expression. Hence, only 1 line contains "Lucayans", according to this example. 
 
-
-
+```
+$ grep "Amsterdam" written_2/travel_guides/berlitz2/Amsterdam-History.txt  > amsterdam.txt
+$ wc amsterdam.txt
+$  15    1308    7846 amsterdam.txt
+$
+$ grep -m 5 "Amsterdam" written_2/travel_guides/berlitz2/Amsterdam-History.txt  > amsterdam.txt
+$ wc amsterdam.txt
+$  5     312    1865 amsterdam.txt
+```
+In the example above, it is apparent from the first grep statement that there are exactly 15 lines in Amsterdam-History.txt that contain the word "Amsterdam"; however, when you re-run the command with `grep -m 5`, only 5 lines are outputted, demonstrating that the terminal stopped reading after exactly 5 matches were found.
 
