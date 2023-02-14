@@ -76,5 +76,7 @@ In this example, I used both `grep -r` and `grep -l` to recursively search throu
 
 I first learned about grep -l from the extension questions after the week 4 lab, using a variety of different internet resources such as [stackoverflow](https://stackoverflow.com/) and [geeksforgeeks](https://www.geeksforgeeks.org/).
 
+## grep -v
 
+`grep -v` was a command that I discovered at [this link](https://www.redhat.com/sysadmin/find-text-files-using-grep). It is a command that "inverts" grep by searching for the file that does NOT contain the user-specified pattern/word. 
 
