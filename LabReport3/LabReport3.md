@@ -1,12 +1,12 @@
 # Lab Report 3 - Grep 
 
-## What is Grep?
+# What is Grep?
 
 `Grep` is a linux command line argument that searches a file for a user-specified pattern and displays all lines that contain that pattern. This lab report will discuss 4 variations that can be paired with `grep` to produce many creative outputs. 
 
-## 4 Grep Command Line Operations
+# 4 Grep Command Line Operations
 
-> grep -r 
+## grep -r 
 
 ```
 $ grep -r "Lucayans" written_2 > lucayans-result.txt
