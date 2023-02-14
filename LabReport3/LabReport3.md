@@ -102,4 +102,14 @@ From the first example for `grep -r`, we know that exactly 2 lines in Bahamas-Hi
 `grep -m` was a command I found after typing `man grep` into the terminal. 
 `grep -m` stops reading the file after it finds x number of lines that contain the given expression. It can be helpful if the user wants to check if a file contains a given string, but has a specific runtime that the program needs to fit under. 
 
+```
+$ grep -m 1 "Lucayans" written_2/travel_guides/berlitz2/Bahamas-History.txt > lucayans-new.txt
+$
+$ wc lucayans-new.txt
+$ 1     134     809 lucayans-new.txt
+```
+From previous examples, it is known that there are exactly 2 lines in Bahamas-History.txt that contain the word "Lucayans"; however, in this example, the file stops gettng read after the first line contains the given expression. Hence, only 1 line contains "Lucayans" in this example. 
+
+
+
 
