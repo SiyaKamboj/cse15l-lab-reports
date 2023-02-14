@@ -47,7 +47,7 @@ Afterwards, if you then go to  http://localhost:4000/add-message?s=How Are You ,
   
   ![Image](images/Bug.png)
   
-In the original code, a new integer array is declared but never initialized; hence, it is automatically filled with the null value: 0. Therefore, while traversing the array and copying the contents to a revers dgkdflgjdglfgklgfgkfgjklfdjgkldfjg*****
+In the original code, a new integer array is declared but never initialized; hence, it is automatically filled with the null value: 0. Therefore, while traversing the array and copying the contents in reverse to the existing array, only the value 0 is consistently copied over. Because the first array is made up of 0's, its reverse will also be all 0's, thereby making it correct. On the other hand, the second array's reverse should be 92, 22, 81, 46, but only 0's are printed out. 
   
 > The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
   
