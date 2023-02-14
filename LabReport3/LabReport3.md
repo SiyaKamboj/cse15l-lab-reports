@@ -2,7 +2,7 @@
 
 # What is Grep?
 
-`Grep` is a linux command line argument that searches a file for a user-specified pattern and displays all lines that contain that pattern. This lab report will discuss 4 variations that can be paired with `grep` to produce many creative outputs. 
+`Grep` is a linux command line argument that searches a file for a user-specified pattern and displays all lines that contain that pattern. This lab report will discuss 4 variations that can be paired with `grep` to produce many creative outputs, which can also be used in conjunction with each other
 
 # 4 Grep Command Line Operations
 
@@ -25,4 +25,54 @@ $ 0       0       0 random-result.txt
 According to the output of the second example, no file in any of the files or subdirectories of written_2 contained a line with the word "dklgjkdfjg", which was expected. 
 
 I discovered information about this command from lecture; however, I answered my clarifying questions using [this link](https://stackoverflow.com/questions/1987926/how-do-i-recursively-grep-all-directories-and-subdirectories). 
+
+##grep -l
+
+`grep -l` searches for the file(s) in which a given string or expression appears. If used in conjunction with `grep -r`, you can recursively search all subdirectories for the specific file that contains the given string or expression. This command can be helpful to find the number of files that contain a given string, in order to determine which files are repetitive and can, subsequently, get deleted. The examples below demonstrate the outputs for a series of examples: 
+
+```
+$ grep -l "vista" written_2/travel_guides/berlitz1/*.txt > files-vista.txt
+
+$ cat files-vista.txt
+$ written_2/travel_guides/berlitz1/IntroDublin.txt
+$ written_2/travel_guides/berlitz1/IntroLakeDistrict.txt
+$ written_2/travel_guides/berlitz1/IntroMadeira.txt
+$ written_2/travel_guides/berlitz1/WhereToFrance.txt
+$ written_2/travel_guides/berlitz1/WhereToGreek.txt
+$ written_2/travel_guides/berlitz1/WhereToIbiza.txt
+$ written_2/travel_guides/berlitz1/WhereToIsrael.txt
+$ written_2/travel_guides/berlitz1/WhereToJerusalem.txt
+$ written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+$ written_2/travel_guides/berlitz1/WhereToMadeira.txt
+```
+In this example, I searched for the text files in the written_2/travel_guides/berlitz1/ directory that contain the string "vista" and saved the output in files-vista.txt. When opening files-vista.txt, the command line outputs the paths of the files that contain "vista" in the specified directory. 
+
+```
+$ grep -rl "vista" written_2 > files-vista.txt
+
+$ cat files-vista.txt
+$ written_2/travel_guides/berlitz1/IntroDublin.txt
+$ written_2/travel_guides/berlitz1/IntroMadeira.txt
+$ written_2/travel_guides/berlitz1/WhereToGreek.txt
+$ written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+$ written_2/travel_guides/berlitz1/WhereToIsrael.txt
+$ written_2/travel_guides/berlitz1/WhereToFrance.txt
+$ written_2/travel_guides/berlitz1/WhereToMadeira.txt
+$ written_2/travel_guides/berlitz1/WhereToIbiza.txt
+$ written_2/travel_guides/berlitz1/WhereToJerusalem.txt
+$ written_2/travel_guides/berlitz1/IntroLakeDistrict.txt
+$ written_2/travel_guides/berlitz2/Costa-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/Athens-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/China-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+$ written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+$ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
+```
+In this example, I used both `grep -r` and `grep -l` to recursively search through all the files and subdirectories in written_2 for the text files that contain the string "vista" and replace the contents of "files-vista.txt" with the output. When opening the new file, it is evident that more files (that are not in written_2/travel_guides/berlitz1/) contain the word "vista". 
+
+
 
