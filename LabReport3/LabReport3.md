@@ -108,7 +108,7 @@ $
 $ wc lucayans-new.txt
 $ 1     134     809 lucayans-new.txt
 ```
-From previous examples, it is known that there are exactly 2 lines in Bahamas-History.txt that contain the word "Lucayans"; however, in this example, the file stops gettng read after the first line contains the given expression. Hence, only 1 line contains "Lucayans" in this example. 
+From previous examples, it is known that there are exactly 2 lines in Bahamas-History.txt that contain the word "Lucayans"; however, in this example, the file stops gettng read after the first line that contains the given expression. Hence, only 1 line contains "Lucayans", according to this example. 
 
 
 
