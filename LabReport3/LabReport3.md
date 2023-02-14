@@ -100,4 +100,6 @@ From the first example for `grep -r`, we know that exactly 2 lines in Bahamas-Hi
 
 ## grep -m
 `grep -m` was a command I found after typing `man grep` into the terminal. 
-`grep -m` stops reading the file after it finds x number of lines that contain the given expression.
+`grep -m` stops reading the file after it finds x number of lines that contain the given expression. It can be helpful if the user wants to check if a file contains a given string, but has a specific runtime that the program needs to fit under. 
+
+
