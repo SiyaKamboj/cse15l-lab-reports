@@ -26,7 +26,7 @@ This lab report is written under the assumption that you have generated an ssh k
 
 ![CD into lab7](images/cdtolab7.png)
 
-  Now, to run the testers, I typed `<Ctrl-r>` into the terminal, which allowed me to search my terminal command history. I then typed `javac` which autocompleted the search to `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, according to my history.
+  Now, to run the testers, I typed `<Ctrl-r>` into the terminal, which allowed me to search my terminal command history. I then typed `javac` which autocompleted the search to `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, according to my history. I, then, pressed `<enter>`, `<Ctrl-r>`, and typed `java <space>`, which autocompleted to `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` because I had previously typed that to run my ListExamplesTest while practicing.
 
 6. Edit the code file to fix the failing test
 7. Run the tests, demonstrating that they now succeed
