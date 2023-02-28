@@ -34,5 +34,8 @@ This lab report is written under the assumption that you have generated an ssh k
    First, I opened the "FileExampelesTests.java" file by typing `nano L <tab>`, which autocompleted to `nano ListExamples`. This prompted me to complete the line with `nano ListExamplesT <tab>`, which autocompleted to `nano ListExamplesTests.`. Then, I typed `j <tab`, which autocompleted the search to `nano ListExamplesTests.java`. After pressing `<enter>`, the nano screen took over my terminal, as shown below. 
    
    ![nano takeover](images/nanotakeover.png)
+   
+   Then, I pressed `<Ctrl>-w` and typed `.merge` into the search bar to jump to the error faster.
+
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account
