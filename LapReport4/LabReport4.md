@@ -30,6 +30,7 @@ This lab report is written under the assumption that you have generated an ssh k
   
   ![Ran failed tests](images/runfailedtests.png)
 
-6. Edit the code file to fix the failing test
-7. Run the tests, demonstrating that they now succeed
-8. Commit and push the resulting change to your Github account
+## Step 4 - Edit the code file
+   First, I opened the "FileExampelesTests.java" file by typing `nano L <tab>`, which autocompleted to `nano ListExamples`. This prompted me to complete the line with `nano ListExamplesT <tab>`, which autocompleted to `nano ListExamplesTests.`. Then, I typed `j <tab`, which autocompleted the search to `nano ListExamplesTests.java`.
+8. Run the tests, demonstrating that they now succeed
+9. Commit and push the resulting change to your Github account
