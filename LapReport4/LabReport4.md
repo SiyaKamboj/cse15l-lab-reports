@@ -22,9 +22,11 @@ This lab report is written under the assumption that you have generated an ssh k
   
 3. Run the tests, demonstrating that they fail
 
-Next, I typed `ls` into the terminal to ensure that the repository was succesfully cloned to the current directory. Then, in order to change the current directory to lab7, I typed `cd l <tab>`, which autocompleted the search to `cd lab7/`, as shown in the image below. Afterwards, I pressed enter to change the current directory, and pressed `<up arrow> <up arrow.` to re-run ls in order to ensure that the directory was succesfully changed. 
+    Next, I typed `ls` into the terminal to ensure that the repository was succesfully cloned to the current directory. Then, in order to change the current directory to lab7, I typed `cd l <tab>`, which autocompleted the search to `cd lab7/`, as shown in the image below. Afterwards, I pressed enter to change the current directory, and pressed `<up arrow> <up arrow.` to re-run ls in order to ensure that the directory was succesfully changed. 
 
 ![CD into lab7](images/cdtolab7.png)
+
+  Now, to run the testers, I typed `<Ctrl-r>` into the terminal, which allowed me to search my terminal command history. I then typed `javac` which autocompleted the search to `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, according to my history.
 
 6. Edit the code file to fix the failing test
 7. Run the tests, demonstrating that they now succeed
