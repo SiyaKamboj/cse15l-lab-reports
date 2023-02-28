@@ -24,6 +24,8 @@ This lab report is written under the assumption that you have generated an ssh k
 
 Next, I typed `ls` into the terminal to ensure that the repository was succesfully cloned to the current directory. Then, in order to change the current directory to lab7, I typed `cd l <tab>`, which autocompleted the search to `cd lab7/`, as shown in the image below. Afterwards, I pressed enter to change the current directory, and pressed `<up arrow> <up arrow.` to re-run ls in order to ensure that the directory was succesfully changed. 
 
+![CD into lab7](images/cdtolab7.png)
+
 6. Edit the code file to fix the failing test
 7. Run the tests, demonstrating that they now succeed
 8. Commit and push the resulting change to your Github account
