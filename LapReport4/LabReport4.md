@@ -48,4 +48,11 @@ Next, I pressed, `<up arrow> <up arrow> <up arrow>` to retrieve `java -cp .:lib/
    According to the screenshot above, due to the changes to the "ListExamplesTests.java" file, the tests now succesfully run.
 
 
-##Step 6 - Commit and push the resulting change to your Github account
+## Step 6 - Commit and push the resulting change to your Github account
+1. First, I git add'ed by typing `git add L <tab> T< tab> j <tab>` which led to `git add ListExamplesTests.java` getting autcompleted on the terminal. Then, I pressed `<enter>`.
+2. Then, I typed `git commit -m "Updated the test file"` in the command line and pressed `<enter>`.
+3. Finally, I typed `git push <enter>` to push my changes from the ieng6 server to the forked copy of the repository.
+
+
+
+
