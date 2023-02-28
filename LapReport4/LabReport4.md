@@ -37,9 +37,10 @@ This lab report is written under the assumption that you have generated an ssh k
    
    Then, I pressed `<Ctrl>-w` and typed `.merge` into the search bar to jump to the error faster. Then, using the left and right error keys, I switched "l1" and "l2" to fix the error. Then, I pressed, `<Ctrl>-o` to write the changes to the file, `<enter>` to confirm that the changes should be written to the "ListExamplesTests.java" file, and, finally, `<Ctrl>-X` to exit the nano screen.
 
-## Step 8- Run the tests, demonstrating that they now succeed
+## Step 5- Run the tests, demonstrating that they now succeed
 
 Now, I pressed `<up arrow> <up arrow>` to retrieve `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the history of commands and pressed `<enter>` to compile the tests.
+
 Next, I pressed, `<up arrow> <up arrow> <up arrow>` to retrieve `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` from the history and pressed `<enter>` to run the tests. 
 
    ![Run passed tests](images/runpassedtests.png)
@@ -47,4 +48,4 @@ Next, I pressed, `<up arrow> <up arrow> <up arrow>` to retrieve `java -cp .:lib/
    According to the screenshot above, due to the changes to the "ListExamplesTests.java" file, the tests now succesfully run.
 
 
-10. Commit and push the resulting change to your Github account
+##Step 6 - Commit and push the resulting change to your Github account
