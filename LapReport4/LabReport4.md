@@ -35,7 +35,7 @@ This lab report is written under the assumption that you have generated an ssh k
    
    ![nano takeover](images/nanotakeover.png)
    
-   Then, I pressed `<Ctrl>-w` and typed `.merge` into the search bar to jump to the error faster.
+   Then, I pressed `<Ctrl>-w` and typed `.merge` into the search bar to jump to the error faster. Then, using the left and right error keys, I switched "l1" and "l2" to fix the error.
 
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account
