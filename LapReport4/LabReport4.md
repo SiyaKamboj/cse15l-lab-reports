@@ -5,6 +5,7 @@ This lab report is written under the assumption that you have generated an ssh k
 1. Log into ieng6
 
   I typed `ssh cs15lwi23atq@ieng6.ucsd.edu` into my terminal. Since I had the ssh key for the account, I was not prompted to enter a password; rather, I was automatically connected to the ieng6 server as shown below. 
+  ![Alt](images/sshnopassword.png)
   
 3. Clone your fork of the repository from your Github account
 4. Run the tests, demonstrating that they fail
