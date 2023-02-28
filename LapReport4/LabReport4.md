@@ -31,6 +31,8 @@ This lab report is written under the assumption that you have generated an ssh k
   ![Ran failed tests](images/runfailedtests.png)
 
 ## Step 4 - Edit the code file
-   First, I opened the "FileExampelesTests.java" file by typing `nano L <tab>`, which autocompleted to `nano ListExamples`. This prompted me to complete the line with `nano ListExamplesT <tab>`, which autocompleted to `nano ListExamplesTests.`. Then, I typed `j <tab`, which autocompleted the search to `nano ListExamplesTests.java`.
+   First, I opened the "FileExampelesTests.java" file by typing `nano L <tab>`, which autocompleted to `nano ListExamples`. This prompted me to complete the line with `nano ListExamplesT <tab>`, which autocompleted to `nano ListExamplesTests.`. Then, I typed `j <tab`, which autocompleted the search to `nano ListExamplesTests.java`. After pressing `<enter>`, the nano screen took over my terminal, as shown below. 
+   
+   ![nano takeover](images/nanotakeover.png)
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account
