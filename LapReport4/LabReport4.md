@@ -53,6 +53,5 @@ Next, I pressed, `<up arrow> <up arrow> <up arrow>` to retrieve `java -cp .:lib/
 2. Then, I typed `git commit -m "Updated the test file"` in the command line and pressed `<enter>`.
 3. Finally, I typed `git push <enter>` to push my changes from the ieng6 server to the forked copy of the repository.
 
-
-
+![Running git commands](images/gitterminal.png)
 
