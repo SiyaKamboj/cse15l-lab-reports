@@ -1,7 +1,7 @@
-# Lab Report 5
+# Lab Report 5 - Report 4 Reflection
 
-## Reflection - Lab Report 4
+## What is lab report 4?
 
-##
+## Original Implementation of Lab Report 4
 
-![Image](images/vscode_downloaded.png)
+## Alternative Way 
