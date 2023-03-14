@@ -33,5 +33,7 @@ The task we were assigned was navigating the command line quickly. In class, we 
 
 ![SCP](images/ssh.png)
 
-4. 
+4. Since I am logged into the ssh server and bash.sh has been copied over, I ran the bash script using `bash bash.sh`, which executed all the commands from `git clone` to `git push` as shown below. 
+
+
 
