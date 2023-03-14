@@ -23,7 +23,7 @@ The task we were assigned was navigating the command line quickly. In class, we 
 
 1. First, I created a bash file called bash.sh in my local computer, that contained all the commands that will be executed on the ieng6 server, as shown below.
 
-![Bash Code](images/bash.sh code.png)
+![Bash Code](images/bashcode.png)
 
 2. Then, I had to copy this bash file from my local computer to the ieng6 server, so that I can access it when connected. I did this by first cd'ing to the directory where the local file was using the `cd /Users/skamboj2022/Downloads/CSE\ 15L/LabReport5` command. Then, I executed `scp ./bash.sh cs15lwi23atq@ieng6.ucsd.edu:~/` in order to copy bash.sh from the current local directory to the root directory of the ieng6 server. 
 
