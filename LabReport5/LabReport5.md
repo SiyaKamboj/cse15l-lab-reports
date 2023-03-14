@@ -19,3 +19,4 @@ Here is a step-by-step implementation of lab report 4:
 Detailed information and images about my implementation of lab report 4 can be found in [my previous lab report](https://siyakamboj.github.io/cse15l-lab-reports/LapReport4/LabReport4.html).
 
 ## Alternative Way of Implementing Lab Report 4
+The task we were assigned was navigating the command line quickly. In class, we had learned about bash scripts, a file that contains a series of commands. Therefore, if a bash script was used, ___
