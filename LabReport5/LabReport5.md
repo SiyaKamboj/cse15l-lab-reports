@@ -25,6 +25,8 @@ The task we were assigned was navigating the command line quickly. In class, we 
 
 ![Bash Code](images/bashcode.png)
 
+As shown here, instead of using nano to edit the file, I am using sed (a Unix utility that parses and transforms text) to find and replace the error in the tests class.
+
 2. Then, I had to copy this bash file from my local computer to the ieng6 server, so that I can access it when connected. I did this by first cd'ing to the directory where the local file was using the `cd /Users/skamboj2022/Downloads/CSE\ 15L/LabReport5` command. Then, I executed `scp ./bash.sh cs15lwi23atq@ieng6.ucsd.edu:~/` in order to copy bash.sh from the current local directory to the root directory of the ieng6 server. 
 
 ![SCP](images/scp.png)
@@ -35,5 +37,7 @@ The task we were assigned was navigating the command line quickly. In class, we 
 
 4. Since I am logged into the ssh server and bash.sh has been copied over, I ran the bash script using `bash bash.sh`, which executed all the commands from `git clone` to `git push` as shown below. 
 
+![Run](images/run.png)
 
+5. Finally, I typed `exit` to close the connection with ieng6
 
