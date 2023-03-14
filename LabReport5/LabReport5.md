@@ -7,7 +7,7 @@ It should be noted that before working on the command line, I generated an ssh k
 
 ## Original Implementation of Lab Report 4
 Here is a step-by-step implementation of lab report 4:
-1. Type`ssh cs15lwi23atq@ieng6.ucsd.edu`
+1. Type`ssh cs15lwi23atq@ieng6.ucsd.edu` into the terminal. Because of my ssh key, I was not required to enter a password to log into my ieng6 account.
 2. 
 Detailed information about my implementation of lab report 4 can be found in [my previous lab report](https://siyakamboj.github.io/cse15l-lab-reports/LapReport4/LabReport4.html).
 
