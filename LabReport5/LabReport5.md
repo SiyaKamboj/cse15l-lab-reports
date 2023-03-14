@@ -13,7 +13,8 @@ Here is a step-by-step implementation of lab report 4:
 4. To compile the tests, I typed `<Ctrl-R>` to search history and retrieve the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 5. To run the tests, I typed `<Ctrl-R>` to search history and retrieve the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 6. Then, I edited the ListExamples file using the `nano` command 
-7. Now, I used the `<up arrow>` keys to go back to the 
+7. Now, I used the `<up arrow>` keys to re-receive the javac and java commands from step 4 and 5 respectively in order to re-run the tests and demonstrate that it works. 
+8. 
 
 
 
