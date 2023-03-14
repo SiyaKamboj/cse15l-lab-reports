@@ -33,3 +33,5 @@ The task we were assigned was navigating the command line quickly. In class, we 
 
 ![SCP](images/ssh.png)
 
+4. 
+
